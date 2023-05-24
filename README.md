@@ -12,7 +12,7 @@ Task02:数据集的读取与可视化
 3、数据存储格式变换：为幅图像建立一个字典，字典中包含{'image_ids', 'category_ids', 'bboxes', 'segmentations'}等键，每个键构建一个list，存储该幅图像中包含的目标类别、目标框和分割标签信息。
 4、可视化图像ID为1000的图像及标签：显示图像、目标框和分割信息，并在目标框左上角标注类别名称，如图例所示；
 
-![img](https://github.com/AceForest/Assignment/blob/main/Example%20image/segmentation_139.png)
+[img](https://github.com/AceForest/Assignment/blob/main/Example%20image/segmentation_139.png)
 
 5、抽取部分数据保存成新的json文件：从数据集中挑选出图像ID为‘139’，‘724’，‘785’，‘885’和‘1000’的图像及相应标注框和分割掩码标签，保存成新的标签文件，格式与原文件保持一致。
 
